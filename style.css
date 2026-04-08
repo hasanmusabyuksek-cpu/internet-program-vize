@@ -1,6 +1,6 @@
 body {
     background-color: rgb(200, 244, 244);
-    font-family: Arial;
+    font-family: sans-serif;
     margin: 0;
     text-align: center;
 }
@@ -37,12 +37,15 @@ div a {
     border: 1px solid gray;
     margin: 10px;
     padding: 10px;
+    border-radius: 15%;
+    font-family: sans-serif;
 }
 
 .kart:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 
 .yet {

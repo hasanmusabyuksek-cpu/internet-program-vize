@@ -19,7 +19,7 @@ function yaz() {
 yaz();
 
 const projelistesi = [
-    { ad: "Robatik", kategori: "web" },
+    { ad: "Robotik", kategori: "web" },
     { ad: "Atık pil yarışması", kategori: "web" },
     { ad: "Plastik kapak yarışması", kategori: "mobil" },
     { ad: "Futbol turnuvası", kategori: "mobil" },

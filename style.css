@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(200, 244, 244);
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+div a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.profil {
+    border-radius: 50%;
+}
+
+.orta {
+    margin-top: 20px;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.kart {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.kart:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.yet {
+    width: 80%;
+    background: #ddd;
+    margin: auto;
+}
+
+.yet div {
+    height: 10px;
+    background: green;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button :hover {
+    background: #00bfff;
+}
+
+/*internetten buldum hocam*/
+@media(max-width:768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-<meta charset="UTF-8">
-<title>Projeler</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Projeler</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-           <a href="anasayfa.html">Anasayfa</a>
+        <div>
+            <a href="anasayfa.html">Anasayfa</a>
             <a href="iletisim.html">İletişim</a>
             <a href="yetenek.html">Yetenekler</a>
-            <a href="proje.html">Projeler</a>
+        </div>
     </header>
-<content class="orta">
+    <content class="orta">
 
-<h1>Projeler</h1>
+        <h1>Projeler</h1>
 
-<button onclick="filtrele('hepsi')">Hepsi</button>
-<button onclick="filtrele('web')">Web</button>
-<button onclick="filtrele('mobil')">Mobil</button>
+        <button onclick="filtrele('hepsi')">Hepsi</button>
+        <button onclick="filtrele('web')">Web</button>
+        <button onclick="filtrele('mobil')">Mobil</button>
 
-<div id="projeAlani"></div>
+        <div id="projeAlani"></div>
 
-</content>
-<script src="script.js"></script>
+    </content>
+    <footer>
+        <p>&copy; 2026 Hasan Yüksek. Tüm hakları saklıdır.</p>
+    </footer>
+    <button onclick="temaDegistir()">Tema Değiştir</button>
+    <script src="script.js"></script>
 </body>
+
 </html>
